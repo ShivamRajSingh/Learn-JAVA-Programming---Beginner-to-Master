@@ -1,4 +1,4 @@
-public class updateValue {
+public class UpdateValue {
     static void updateValue(int arr[], int index, int newValue){
         arr[index] = newValue;
     }
