@@ -15,7 +15,7 @@ class Rectangle{
     }
 
     public int perimeter() {
-        return 2 * length * breadth;
+        return 2 * (length + breadth);
     }
 }
 
