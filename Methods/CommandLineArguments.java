@@ -3,8 +3,10 @@ public class CommandLineArguments {
         double sum = 0;
         double temp = 0;
         for(String s : args){
-            temp = Double.parseDouble(s);
-            sum += temp;
+            if(s.matches("[0-9\\.]+")){
+                temp = Double.parseDouble(s);
+                sum += temp;
+            }
         }
         System.out.println(sum);
     }
