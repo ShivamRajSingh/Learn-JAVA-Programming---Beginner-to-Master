@@ -17,11 +17,17 @@ class Circle{
 public class Circle1{
     public static void main(String[] args) {
         Circle c1 = new Circle();
+        Circle c2 = new Circle();
 
         c1.radius = 7;
+        c2.radius = 14;
 
         System.out.println(c1.area());
         System.out.println(c1.circumference());
         System.out.println(c1.perimeter());
+
+        System.out.println(c2.area());
+        System.out.println(c2.circumference());
+        System.out.printf("%2f", c2.perimeter());
     }
 }
