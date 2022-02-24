@@ -4,13 +4,13 @@ abstract class My{
 
 class Outer{
     public void display(){
-        My my = new My() {
+        // Anonymous class and anonymous object
+        new My() {
             @Override
             public void show(){
                 System.out.println("Hello");
             }
-        };
-        my.show();
+        }.show();
     }
 }
 public class AnonymousInnerClass {
