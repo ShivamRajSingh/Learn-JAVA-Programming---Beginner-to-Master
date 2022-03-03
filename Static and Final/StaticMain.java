@@ -3,7 +3,7 @@ class Fortuner{
     String color;
 
     static{
-        // Static Block
+        // Static Blocks are generally used to initialise static members
         price = 3000000;
     }
 
