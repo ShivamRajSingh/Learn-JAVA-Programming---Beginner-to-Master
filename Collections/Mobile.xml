@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Mobile</comment>
+<entry key="Brand">Apple</entry>
+<entry key="Processor">A14 Bionic</entry>
+<entry key="OS">iOS</entry>
+<entry key="Model">iPhone 13</entry>
+</properties>

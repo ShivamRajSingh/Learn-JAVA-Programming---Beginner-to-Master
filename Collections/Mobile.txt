@@ -1,0 +1,6 @@
+#Mobile
+#Thu Mar 03 12:19:20 IST 2022
+Brand=Apple
+Processor=A14 Bionic
+OS=iOS
+Model=iPhone 13

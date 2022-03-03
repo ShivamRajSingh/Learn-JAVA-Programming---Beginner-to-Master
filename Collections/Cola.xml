@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Soft Drink</comment>
+<entry key="Brand">PepsiCo</entry>
+<entry key="Name">Pepsi</entry>
+<entry key="Type">Cold Drink</entry>
+<entry key="Quantity">2 ltr</entry>
+</properties>
