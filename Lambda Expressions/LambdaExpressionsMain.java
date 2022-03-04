@@ -1,14 +1,11 @@
 @FunctionalInterface
 interface MyLambda{
-    public void show();
+    public int product(int x, int y);
 }
 
 public class LambdaExpressionsMain {
     public static void main(String[] args) {
-        MyLambda ml = () -> { 
-            System.out.println("Hello World");
-        };
-
-        ml.show();
+        MyLambda ml = (a,b) -> a*b;
+        System.out.println(ml.product(25, 65));
     }
 }
